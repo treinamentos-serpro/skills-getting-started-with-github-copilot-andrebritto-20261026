@@ -12,7 +12,7 @@ Uma aplicação FastAPI super simples que permite que estudantes visualizem e se
 1. Instale as dependências:
 
    ```
-   pip install fastapi uvicorn
+   pip install -r ../requirements.txt
    ```
 
 2. Execute a aplicação:
@@ -48,3 +48,11 @@ A aplicação usa um modelo de dados simples com identificadores significativos:
    - Série/Ano escolar
 
 Todos os dados são armazenados em memória, o que significa que os dados serão resetados quando o servidor reiniciar.
+
+## Testes
+
+Os testes da API ficam no diretório `tests/` na raiz do projeto. Execute-os com:
+
+```
+pytest
+```
